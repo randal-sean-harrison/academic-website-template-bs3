@@ -1,0 +1,113 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+}
+
+p {
+   margin-top: 1.5em;
+}
+
+p, li, a, tr, td, dt, dd, button {
+   font-size: 16px;
+}
+
+.table-center {
+   width:250px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.main-content {
+   margin-top: 140px;
+}
+
+.navbar h4 {
+   margin-top: 0px;
+   font-weight: 300;
+}
+
+a:link, a:visited {
+   color: #337ab7 !important;
+   font-weight: 400;
+}
+
+a:hover, a:active {
+   color: #31708f !important;
+}
+
+.navbar {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.navbar h4 a {
+   font-size: 28px;
+   color: #337ab7 !important;
+}
+
+footer {
+   border-top: 1px solid #eeeeee;
+   margin-top: 40px;
+   padding-bottom: 2em;
+}
+
+footer .social-icons {
+   margin-top: 25px;
+}
+
+footer a i {
+   color: #FFFFFF !important;
+}
+
+
+a.button-default {
+   border: #337ab7 !important;
+}
+
+.office-hours {
+   margin-top: 20px !important;
+}
+
+.courses-list dt {
+   margin-top: 1.2em;
+}
+
+h3.page-header {
+   color: #999999;
+}
+
+.bill-wallace {
+   height: 30px;
+   background: #e7e7e7;
+   position: relative;
+   bottom: 0;
+}
+
+.navbar-default .navbar-nav > .active > a {
+   color: #999 !important;
+   border-radius: 5px;
+}
+
+ul#working-papers, ul#publications {
+   list-style-type: none;
+   margin-bottom: 20px;
+   margin-left: -20px;
+}
+
+ul#working-papers li::before, ul#publications li::before {
+   content: "\f1c1";
+   font-family: FontAwesome;
+   margin-right: 1em;
+}
+
+ul#working-papers li, ul#publications li {
+   margin-bottom: 16px;
+   text-indent: -32px;
+   padding-left: 40px;
+   padding-top: 6px;
+   padding-right: 12px;
+   padding-bottom: 6px;
+}
+
+ul#working-papers li:nth-child(odd), ul#publications li:nth-child(odd) {
+   background: #eeeeee;
+}

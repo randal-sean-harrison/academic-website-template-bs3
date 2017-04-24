@@ -1,0 +1,23 @@
+/* License and Use */
+
+   This website template is provided @
+   https://github.com/randal-sean-harrison/academic-website-template/
+
+   You may download and modify this license freely, according to the license terms provided @
+   https://github.com/randal-sean-harrison/academic-website-template/blob/master/LICENSE
+
+/* Website Design */
+
+	Release date: Summer, 2017
+
+	Web Design and Development
+
+   Randal Sean Harrison, Ph.D.
+	Employed: Hesburgh Libraries, University of Notre Dame
+	Contact: rharriso [at] nd.edu
+
+/* Technologies, Credits  */
+	Languages: HTML5, CSS3, Javascript
+   Frameworks: jQuery, Bootstrap 3
+
+   IDE/Env: CodeKit, Atom.io
