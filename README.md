@@ -103,15 +103,16 @@ Rather than embed a Google Doc, you may wish to place a pdf of your vitae in the
 ... with this code (replacing **vitae.pdf** with the real name of your vitae file):  
 
 ```html
-For more information, see my <a href="docs/vitae.pdf">Curriculum Vitae</a>
+<p>For more information, see my <a href="docs/vitae.pdf">Curriculum Vitae</a></p>
 ```
 If you choose this option, I recommend you omit the Vitae page from the Website/navigation entirely, and add this line to the bottom of the About Me page (index.html)
 
 ## Creator
 Randal Sean Harrison, Ph.D.
+
 [randalseanharrison.com](https://randalseanharrison.com)
 
 ## Copyright License and Attribution
-A few parts of this project are not in the public domain. Attribution and licensing information for those parts are described in detail in [License](https://github.com/randal-sean-harrison/academic-website-template/blob/master/LICENSE.md).
+A few parts of this project are not in the public domain. Attribution and licensing information for those parts are described in detail in the [License](https://github.com/randal-sean-harrison/academic-website-template/blob/master/LICENSE.md).
 
 The rest of this project is in the worldwide public domain, released under the CC0 1.0 Universal public domain dedication.
