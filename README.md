@@ -10,7 +10,7 @@ Many academics entering the market today are served by having a digital footprin
 ## What's included
 The Zipped file contains the following folders and files:
 
-```
+```html
 academic-website-template/
 ├── css/
 │   ├── academicons.min.css
@@ -89,7 +89,7 @@ By embedding a Google Doc in the **Vitae** page, you may make edits directly to 
 <iframe width='100%' height='5200' frameborder='0' scrolling='no' src='https://docs.google.com/document/d/1_AJVKpKeyh_NFvlKA6nOT7GbR8NuFfJjQn-5tIumWpY/preview' allowfullscreen></iframe>
 ```
 
-2. Replace the **1_AJVKpKeyh_NFvlKA6nOT7GbR8NuFfJjQn-5tIumWpY** bit with your own unique Google Doc ID. This can be copied from the browser's URL bar once inside the Google Doc. 
+2. Replace the **1_AJVKpKeyh_NFvlKA6nOT7GbR8NuFfJjQn-5tIumWpY** bit with your own unique Google Doc ID. This can be copied from the browser's URL bar once inside the Google Doc.
 
 ![image of unique Google Doc ID in browser URL bar](http://www.randalseanharrison.com/img/google-doc-id.png)
 
