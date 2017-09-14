@@ -1,8 +1,7 @@
 # Simple Academic Website Template
-
+#### Simple, intuitive, mobile-friendly (Bootstrap-enabled) website for academics entering the market.
 
 ## Description
-Simple, intuitive, mobile-friendly (Bootstrap-enabled) website for academics entering the market.
 
 Many academics entering the market today are served by having a digital footprint which describes their research, teaching, and other relevant experience. While many 3rd-party hosted solutions exist, such as Wordpress.com, for those familiar with HTML and who wish to have their own hosted domain, this simple  simple template offers a quick way to get a presence online. It's also useful to experiment with HTML, CSS and the [Bootstrap Framework](https://getbootstrap.com/getting-started/).
 
