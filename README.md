@@ -80,15 +80,15 @@ If you love the favicon, you may create your own by visiting [Favicon Generator]
 
 
 ## Linking Your Vitae to a Google Doc
-By embedding a Google Doc in the **Vitae** page, you may make edits directly to your vitae (qua Google Doc) which will be reflected in the Website in real time. To point the iframe to __your own__ Google Doc, then, do the following:
+By embedding a Google Doc in the **Vitae** page, you may make edits directly to your vitae (qua Google Doc) which will be reflected in the Website in real time. To point the iframe to your own Google Doc, then, do the following:
 
-1. look for the following code on line 109 of the **Vitae.html** file:
+1. Look for the following code on line 109 of the **Vitae.html** file:
 
 ```html
 <iframe width='100%' height='5200' frameborder='0' scrolling='no' src='https://docs.google.com/document/d/1_AJVKpKeyh_NFvlKA6nOT7GbR8NuFfJjQn-5tIumWpY/preview' allowfullscreen></iframe>
 ```
 
-2. Replace the **1_AJVKpKeyh_NFvlKA6nOT7GbR8NuFfJjQn-5tIumWpY** bit with your own unique Google Doc ID. This can be copied from the browser's URL bar once inside the Google Doc.
+2. Replace the **1_AJVKpKeyh_NFvlKA6nOT7GbR8NuFfJjQn-5tIumWpY** bit with your own unique Google Doc ID. This can be copied from the browser's URL bar once inside the Google Doc for your own vitae.
 
 ![image of unique Google Doc ID in browser URL bar](http://www.randalseanharrison.com/img/google-doc-id.png)
 
@@ -109,9 +109,7 @@ If you choose this option, I recommend you omit the Vitae page from the Website/
 
 ## Creator
 Randal Sean Harrison, Ph.D.
-Emerging Technologies Librarian
-University of Notre Dame
-<https://randalseanharrison.com>
+[randalseanharrison.com](https://randalseanharrison.com)
 
 ## Copyright License and Attribution
 A few parts of this project are not in the public domain. Attribution and licensing information for those parts are described in detail in [License](https://github.com/randal-sean-harrison/academic-website-template/blob/master/LICENSE.md).
