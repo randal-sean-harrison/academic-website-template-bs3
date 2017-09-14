@@ -1,6 +1,20 @@
 # Simple Academic Website Template
 Simple, intuitive, mobile-friendly (Bootstrap-enabled) website for academics entering the market.
 
+## Table of contents
+
+- [Description](#description)
+- [Status](#whats-included)
+- [The Favicon](#the-favicon)
+- [Linking Your Vitae to a Google Doc](#linking-your-vitae-to-a-google-doc)
+- [Linking Your Vitae to a PDF](#linking-your-vitae-to-a-pdf)
+- [Creator](#creator)
+- [Copyright License and Attribution](#copyright-license-and-attribution)
+- [Versioning](#versioning)
+- [Creators](#creators)
+- [Copyright and license](#copyright-and-license)
+
+
 ## Description
 Many academics entering the market today are served by having a digital footprint which describes their research, teaching, and other relevant experience. While many 3rd-party hosted solutions exist, such as Wordpress.com, for those familiar with HTML and who wish to have their own hosted domain, this simple   template offers a quick way to get a presence online. It's also useful to experiment with HTML, CSS and learn more about the [Bootstrap Framework](https://getbootstrap.com/getting-started/).
 
@@ -108,8 +122,7 @@ Rather than embed a Google Doc, you may wish to place a pdf of your vitae in the
 If you choose this option, I recommend you omit the Vitae page from the Website/navigation entirely, and add this link to the bottom of the About Me (index.html) page.
 
 ## Creator
-Randal Sean Harrison, Ph.D.
-[randalseanharrison.com](https://randalseanharrison.com)
+Randal Sean Harrison, Ph.D. @ [randalseanharrison.com](https://randalseanharrison.com)
 
 ## Copyright License and Attribution
 A few parts of this project are not in the public domain. Attribution and licensing information for those parts are described in detail in the [License](https://github.com/randal-sean-harrison/academic-website-template/blob/master/LICENSE.md).
