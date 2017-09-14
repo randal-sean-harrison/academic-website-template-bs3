@@ -1,59 +1,54 @@
-# academic-website-template
-A simple template for an academic website using Bootstrap
+# Simple Academic Website Template
 
-
-
-<p align="center">
-  <a href="https://github.com/randal-sean-harrison/academic-website-template">
-    <img src="https://randal-sean-harrison.github.io/academic-website-template/img/jane-smith-logo.png" width=75 height=75>
-  </a>
-</p>
-
-  <h3 align="center">Simple Academic Website Template</h3>
-
-  <p align="center">
-    Simple, intuitive, mobile-friendly (Bootstrap-enabled) website for academics entering the market.
-  </p>
-
-  <p><a href="https://github.com/randal-sean-harrison/academic-website-template/archive/master.zip">DOWNLOAD</a></p>
-
-<br>
 
 ## Description
+Simple, intuitive, mobile-friendly (Bootstrap-enabled) website for academics entering the market.
 
 Many academics entering the market today are served by having a digital footprint which describes their research, teaching, and other relevant experience. While many 3rd-party hosted solutions exist, such as Wordpress.com, for those familiar with HTML and who wish to have their own hosted domain, this simple  simple template offers a quick way to get a presence online. It's also useful to experiment with HTML, CSS and the [Bootstrap Framework](https://getbootstrap.com/getting-started/).
 
-## Status
+[Download](https://github.com/randal-sean-harrison/academic-website-template/archive/master.zip)
 
-[![Slack](https://bootstrap-slack.herokuapp.com/badge.svg)](https://bootstrap-slack.herokuapp.com)
-[![npm version](https://img.shields.io/npm/v/bootstrap.svg)](https://www.npmjs.com/package/bootstrap)
-[![Gem version](https://img.shields.io/gem/v/bootstrap.svg)](https://rubygems.org/gems/bootstrap)
-[![Build Status](https://img.shields.io/travis/twbs/bootstrap/v4-dev.svg)](https://travis-ci.org/twbs/bootstrap)
-[![peerDependencies Status](https://david-dm.org/twbs/bootstrap/peer-status.svg)](https://david-dm.org/twbs/bootstrap?type=peer)
-[![devDependency Status](https://img.shields.io/david/dev/twbs/bootstrap.svg)](https://david-dm.org/twbs/bootstrap?type=dev)
-[![Meteor Atmosphere](https://img.shields.io/badge/meteor-twbs%3Abootstrap-blue.svg)](https://atmospherejs.com/twbs/bootstrap)
-[![Packagist Prerelease](https://img.shields.io/packagist/vpre/twbs/bootstrap.svg)](https://packagist.org/packages/twbs/bootstrap)
-[![NuGet](https://img.shields.io/nuget/vpre/bootstrap.svg)](https://www.nuget.org/packages/bootstrap/absoluteLatest)
-
-[![Selenium Test Status](https://saucelabs.com/browser-matrix/bootstrap.svg)](https://saucelabs.com/u/bootstrap)
 
 ## What's included
 
-Within the download you'll find the following directories and files, logically grouping common assets and providing both compiled and minified variations. You'll see something like this:
+The Zip file contains the following folders and files.
 
 ```
-bootstrap/
+academic-website-template/
 ├── css/
-│   ├── bootstrap.css
-│   ├── bootstrap.css.map
-│   ├── bootstrap.min.css
-│   └── bootstrap.min.css.map
-└── js/
-    ├── bootstrap.js
-    └── bootstrap.min.js
+│   ├── academicons.min.css
+│   ├── custom.css
+│   └── font-awesome.min.css
+│   
+├─── favicons/
+│   ├── -- MULTIPLE FILENAMES.png (various sizes)
+│   ├── browserconfig.xml
+│   ├── manifest.json
+│   └── favicon.ico
+│
+├─── fonts/
+│   ├──academicons.eot
+│   ├──academicons.svg
+│   ├──academicons.ttf
+│   ├──academicons.woff
+│   ├──fontawesome-webfont.svg
+│   ├──fontawesome-webfont.ttf
+│   ├──fontawesome-webfont.woff
+│   ├──fontawesome-webfont.woff2
+│   └──FontAwesome.otf
+│
+├── img/
+│   ├── jane-smith-logo.png
+│   └── ilya-brik.png
+│   
+├── humans.txt
+├── index.html
+├── LICENSE.md
+├── README.md
+├── research.html
+├── teaching.html
+└── vitae.html
 ```
-
-We provide compiled CSS and JS (`bootstrap.*`), as well as compiled and minified CSS and JS (`bootstrap.min.*`). CSS [source maps](https://developers.google.com/web/tools/chrome-devtools/debug/readability/source-maps) (`bootstrap.*.map`) are available for use with certain browsers' developer tools.
 
 
 ## Bugs and feature requests
