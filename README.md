@@ -4,15 +4,12 @@ Simple, intuitive, mobile-friendly (Bootstrap-enabled) website for academics ent
 ## Table of contents
 
 - [Description](#description)
-- [Status](#whats-included)
+- [What's Included](#whats-included)
 - [The Favicon](#the-favicon)
 - [Linking Your Vitae to a Google Doc](#linking-your-vitae-to-a-google-doc)
 - [Linking Your Vitae to a PDF](#linking-your-vitae-to-a-pdf)
 - [Creator](#creator)
 - [Copyright License and Attribution](#copyright-license-and-attribution)
-- [Versioning](#versioning)
-- [Creators](#creators)
-- [Copyright and license](#copyright-and-license)
 
 
 ## Description
