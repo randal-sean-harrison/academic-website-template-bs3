@@ -95,7 +95,7 @@ By embedding a Google Doc in the **Vitae** page, you may make edits directly to 
 
 
 ## Linking Your Vitae to a PDF
-Rather than embed a Google Doc, you may wish to place a pdf of your vitae in the **docs** folder and link directly to that. To do so, simply replace this code...
+Rather than embed a Google Doc, you may wish to place a pdf of your vitae in the **docs** folder and link directly to that. To do so, simply replace this code on the **Vitae.html** page...
 
 ```html
 <iframe width='100%' height='5200' frameborder='0' scrolling='no' src='https://docs.google.com/document/d/1_AJVKpKeyh_NFvlKA6nOT7GbR8NuFfJjQn-5tIumWpY/preview' allowfullscreen></iframe>
@@ -105,11 +105,10 @@ Rather than embed a Google Doc, you may wish to place a pdf of your vitae in the
 ```html
 <p>For more information, see my <a href="docs/vitae.pdf">Curriculum Vitae</a></p>
 ```
-If you choose this option, I recommend you omit the Vitae page from the Website/navigation entirely, and add this line to the bottom of the About Me page (index.html)
+If you choose this option, I recommend you omit the Vitae page from the Website/navigation entirely, and add this link to the bottom of the About Me (index.html) page.
 
 ## Creator
 Randal Sean Harrison, Ph.D.
-
 [randalseanharrison.com](https://randalseanharrison.com)
 
 ## Copyright License and Attribution
