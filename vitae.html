@@ -50,21 +50,6 @@
     <!-- This is the include for your own personal style sheet -->
     <link href="css/custom.css" rel="stylesheet">
 
-    <!-- This is the include of the Google 'Roboto' Web font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500" rel="stylesheet">
-
-    <!-- This in the include to style code, if you put code into your website, for instructions, see: https://github.com/google/code-prettify -->
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-
-    <!-- This is an embedded style sheet. It's currently empty. Styles placed here will override styles in css/custom.css (above) for this particular page.-->
-    <style type="text/css">
-
-        table tr td {
-            border-top: none !important;
-        }
-
-    </style>
-
     <!-- favicons  -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
@@ -85,19 +70,40 @@
 
 <body>
 
-    <!-- The content for this div is automatically generated when the page loads -->
-    <div w3-include-html="header.html"></div>
+   <!-- Fixed navbar -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <h1 id="brand-name"><a class="navbar-brand" href="index.html">Jane Smith</a></h1>
+         </div>
+         <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav pull-right">
+              <li id="about"><a href="index.html">About Me</a></li>
+              <li id="teaching"><a href="teaching.html">Teaching</a></li>
+              <li id="research"><a href="research.html">Research</a></li>
+              <li id="vitae" class="active"><a href="vitae.html">Vitae</a></li>
+
+            </ul>
+         </div><!--/.nav-collapse -->
+        </div>
+      </nav>
 
     <div class="container main-content">
       <div class="row">
          <div class="col-sm-12">
-         <h3 class="page-header">Vitae</h3>
+         <h2 class="page-header">Vitae</h2>
          </div>
       </div>
         <div class="row">
             <div class="col-xs-12">
 
-               <p>You may also download a <a href="https://docs.google.com/document/d/1_AJVKpKeyh_NFvlKA6nOT7GbR8NuFfJjQn-5tIumWpY/edit" target="_blank">print copy (via Google Docs)</a></p>
+               <p class="text-center">Download a <a href="https://docs.google.com/document/d/1_AJVKpKeyh_NFvlKA6nOT7GbR8NuFfJjQn-5tIumWpY/edit" target="_blank">print copy via Google Docs</a></p>
 
             <!-- this is the include for your google docs. Remember to change the height to match the length of your document -->
             <iframe width='100%' height='5200' frameborder='0' scrolling='no' src='https://docs.google.com/document/d/1_AJVKpKeyh_NFvlKA6nOT7GbR8NuFfJjQn-5tIumWpY/preview' allowfullscreen></iframe>
@@ -109,21 +115,35 @@
     </div>
     <!-- .container -->
 
-    <!-- The content for this div is automatically generated when the page loads -->
-    <div w3-include-html="footer.html"></div>
+    <footer class="container">
+        <div class="row">
 
-    <!-- This is the include that makes work the embedding of other html pages into this page -->
-    <script src="https://www.w3schools.com/lib/w3data.js"></script>
-    <script type="text/javascript">w3IncludeHTML();</script>
+            <div class="col-xs-12 col-sm-8">
+               <p class="pull-left spacer-top">&copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script> Jane Smith</p>
+            </div>
 
-    <!-- This script sets the correct active page in the navbar -->
-    <script type="text/javascript">
+            <!-- academic icons: For more icons, please see https://jpswalsh.github.io/academicons/ -->
+            <div class="col-xs-12 col-sm-3 social-icons pull-right">
 
-       $( document ).ready(function() {
-         $("li#vitae").addClass("active");
-       });
+               <!-- Visit Google Scholar to set up an account -->
+               <a class="btn btn-primary btn-lg" href=""><i class="ai ai-google-scholar" title="Google Scholar"></i></a>
 
-   </script>
+               <!-- Visit Researchgate.net to set up an account -->
+               <a class="btn btn-primary btn-lg" href=""><i class="ai ai-researchgate" title="Research Gate"></i></a>
+
+               <!-- Visit LinkedIn.net to set up an account  -->
+               <a class="btn btn-primary btn-lg" href=""><i class="fa fa-linkedin" title="LinkedIn"></i></a>
+
+               <!-- Visit Twitter to set up an account  -->
+               <a class="btn btn-primary btn-lg" href=""><i class="fa fa-twitter" title="LinkedIn"></i></a>
+            </div>
+
+        </div>
+        <!-- .row -->
+    </footer>
+
+    <!-- This in the include to style code, if you put code into your website, for instructions, see: https://github.com/google/code-prettify -->
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 
 </body>
 

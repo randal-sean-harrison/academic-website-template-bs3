@@ -33,6 +33,7 @@
 
     <!-- This is the jQuery plugin (necessary for Bootstrap's JavaScript plugins) -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
    <!-- Include all compiled plugins (below), or include individual files as needed -->
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
@@ -49,21 +50,6 @@
 
     <!-- This is the include for your own personal style sheet -->
     <link href="css/custom.css" rel="stylesheet">
-
-    <!-- This is the include of the Google 'Roboto' Web font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500" rel="stylesheet">
-
-    <!-- This in the include to style code, if you put code into your website, for instructions, see: https://github.com/google/code-prettify -->
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-
-    <!-- This is an embedded style sheet. It's currently empty. Styles placed here will override styles in css/custom.css (above) for this particular page.-->
-    <style type="text/css">
-
-        table tr td {
-            border-top: none !important;
-        }
-
-    </style>
 
     <!-- favicons  -->
     <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
@@ -85,35 +71,56 @@
 
 <body>
 
-    <!-- The content for this div is automatically generated when the page loads -->
-    <div w3-include-html="header.html"></div>
+
+    <!-- Fixed navbar -->
+       <nav class="navbar navbar-default navbar-fixed-top">
+         <div class="container">
+          <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+             <h1 id="brand-name"><a class="navbar-brand" href="index.html">Jane Smith</a></h1>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+             <ul class="nav navbar-nav pull-right">
+               <li id="about"><a href="index.html">About Me</a></li>
+               <li id="teaching"><a href="teaching.html">Teaching</a></li>
+               <li id="research" class="active"><a href="research.html">Research</a></li>
+               <li id="vitae"><a href="vitae.html">Vitae</a></li>
+             </ul>
+          </div><!--/.nav-collapse -->
+         </div>
+       </nav>
 
     <div class="container main-content">
       <div class="row">
          <div class="col-sm-12">
-         <h3 class="page-header">Research</h3>
+         <h2 class="page-header">Research</h2>
          </div>
       </div>
         <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-4">
+            <div class="col-xs-12 col-sm-5 col-md-5">
 
                <h4 class="office-hours"></i>Research Areas</h4>
 
-               <ul class="list-group">
-                 <li class="list-group-item">Research Area 1</li>
-                 <li class="list-group-item">Research Area 2</li>
-                 <li class="list-group-item">Research Area 3</li>
-                 <li class="list-group-item">Research Area 4</li>
-                 <li class="list-group-item">Research Area 5</li>
-                 <li class="list-group-item">Research Area 6</li>
-               </ul>
+               <dl class="dl">
+                 <dt>Research Area 1</dt>
+                 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos animi reiciendis eum nobis aliquid optio molestiae dolorem autem alias.</dd>
+                 <dt>Research Area 2</dt>
+                 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elat. Dignissimos animi reiciendis eum nobis adtquid optio molestiae dolorem autem ales.</dd>
+                 <dt>Research Area 3</dt>
+                 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elat. Dignissimos animi reiciendis eum nobis adtquid optio molestiae dolorem autem aleas.</dd>
+                 <dt>Research Area 4</dt>
+                 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elat. Dignissimos animi reiciendis eum nobis adtquid optio molestiae dolorem autem aleas.</dd>
+                 <dt>Research Area 5</dt>
+                 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elat. Dignissimos animi reiciendis eum nobis aliquid optio molestiae dolorem autem aleas.</dd>
+               </dl>
 
             </div>
-            <div class="col-xs-12 col-sm-8 col-md-8">
-
-            <p>[Paragraph on Research Interests]. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In modi qui architecto quibusdam quis. Enim, magni! Quisquam qui at tenetur nam blanditiis amet repellendus soluta placeat odit. Ullam, rerum, totam?</p>
-
-            <hr>
+            <div class="col-xs-12 col-sm-7 col-md-7">
 
             <h4>Working Papers</h4>
             <ul id="working-papers">
@@ -122,13 +129,10 @@
                <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications.</li>
             </ul>
 
-            <hr>
-
-            <h4>Publications</h4>
+            <h4 class="spacer-top-lg">Publications</h4>
             <ul id="publications">
-               <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications. <span class="label label-warning">Submitted for Publication</span>
-</li>
-               <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications. <span class="label label-warning">Submitted for Publication</span></li>
+               <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications. Submitted for Publication</li>
+               <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications. Submitted for Publication</li>
                <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications.</li>
                <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications.</li>
                <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications.</li>
@@ -143,21 +147,37 @@
     </div>
     <!-- .container -->
 
-    <!-- The content for this div is automatically generated when the page loads -->
-    <div w3-include-html="footer.html"></div>
+    <footer class="container">
+        <div class="row">
 
-    <!-- This is the include that makes work the embedding of other html pages into this page -->
-    <script src="https://www.w3schools.com/lib/w3data.js"></script>
-    <script type="text/javascript">w3IncludeHTML();</script>
+            <div class="col-xs-12 col-sm-8">
+                <p class="pull-left spacer-top">&copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script> Jane Smith</p>
+            </div>
 
-    <!-- This script sets the correct active page in the navbar -->
-    <script type="text/javascript">
+            <!-- academic icons: For more icons, please see https://jpswalsh.github.io/academicons/ -->
+            <div class="col-xs-12 col-sm-3 social-icons pull-right">
 
-       $( document ).ready(function() {
-         $("li#research").addClass("active");
-       });
+               <!-- Visit Google Scholar to set up an account -->
+               <a class="btn btn-primary btn-lg" href=""><i class="ai ai-google-scholar" title="Google Scholar"></i></a>
 
-   </script>
+               <!-- Visit Researchgate.net to set up an account -->
+               <a class="btn btn-primary btn-lg" href=""><i class="ai ai-researchgate" title="Research Gate"></i></a>
+
+               <!-- Visit LinkedIn.net to set up an account  -->
+               <a class="btn btn-primary btn-lg" href=""><i class="fa fa-linkedin" title="LinkedIn"></i></a>
+
+               <!-- Visit Twitter to set up an account  -->
+               <a class="btn btn-primary btn-lg" href=""><i class="fa fa-twitter" title="LinkedIn"></i></a>
+            </div>
+
+        </div>
+        <!-- .row -->
+   </footer>
+
+   <!-- This in the include to style code, if you put code into your website, for instructions, see: https://github.com/google/code-prettify -->
+   <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
+
 </body>
 
 </html>
