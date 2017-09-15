@@ -15,7 +15,7 @@ Simple, intuitive, mobile-friendly (Bootstrap-enabled) website for academics ent
 ## Description
 Many academics entering the market today are served by having a digital footprint which describes their research, teaching, and other relevant experience. While many 3rd-party hosted solutions exist, such as Wordpress.com, for those familiar with HTML and who wish to have their own hosted domain, this simple   template offers a quick way to get a presence online. It's also useful to experiment with HTML, CSS and learn more about the [Bootstrap Framework](https://getbootstrap.com/getting-started/).
 
-[VIEW DEMO](https://randal-sean-harrison.github.io/academic-website-template/) | [DOWNLOAD THE ZIPPED FILES](https://github.com/randal-sean-harrison/academic-website-template/archive/master.zip)
+[VIEW DEMO](http://randal-sean-harrison.github.io/academic-website-template/) | [DOWNLOAD THE ZIPPED FILES](https://github.com/randal-sean-harrison/academic-website-template/archive/master.zip)
 
 
 ## What's included
@@ -119,7 +119,7 @@ Rather than embed a Google Doc, you may wish to place a pdf of your vitae in the
 If you choose this option, I recommend you omit the Vitae page from the Website/navigation entirely, and add this link to the bottom of the About Me (index.html) page.
 
 ## Creator
-Randal Sean Harrison, Ph.D. @ [randalseanharrison.com](https://randalseanharrison.com)
+Randal Sean Harrison, Ph.D. @ [randalseanharrison.com](http://randalseanharrison.com)
 
 ## Copyright License and Attribution
 A few parts of this project are not in the public domain. Attribution and licensing information for those parts are described in detail in the [License](https://github.com/randal-sean-harrison/academic-website-template/blob/master/LICENSE.md).
