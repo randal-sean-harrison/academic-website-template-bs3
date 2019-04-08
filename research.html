@@ -2,181 +2,141 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Metadata for the Webpage -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Jane Smith, MS</title>
 
-    <meta name="description" content="This is the Web page for Jane Smith, post-doctoral student in [some field].">
-    <meta name="author" content="Jane Smith">
+   <!-- Bootstrap CSS files-->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
-    <!-- This title will show up at the top of the browser window, not in the Web page itself -->
-    <title>Jane Smith, PhD</title>
+   <!-- jQuery UI CSS (optional) -->
+   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 
-    <!-- favicons: these show at the top of your browser tab, etc. Visit http://www.favicon-generator.org/ to generate your own favicons -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+   <!-- Google web fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600" rel="stylesheet">
 
-    <!-- This is the jQuery plugin (necessary for Bootstrap's JavaScript plugins) -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <!-- Font Awesome Web Icons -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-   <!-- Include all compiled plugins (below), or include individual files as needed -->
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <!-- Academicons Courtesy of https://jpswalsh.github.io/academicons/ -->
+   <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
-    <!-- These are the includes for Bootstrap CSS and JS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-    <!-- This is the include for the FontAwesome fonts -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-
-    <!-- This is the include for the Academicons fonts -->
-    <link rel="stylesheet" href="css/academicons.min.css">
-
-    <!-- This is the include for your own personal style sheet -->
-    <link href="css/custom.css" rel="stylesheet">
-
-    <!-- favicons  -->
-    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicons//favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicons//favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicons//favicon-16x16.png">
-
+   <!-- Local styles -->
+   <link rel="stylesheet" href="css/main.css">
 
 </head>
 
 <body>
 
+   <!-- navbar include -->
+   <div w3-include-html="navbar.html"></div>
 
-    <!-- Fixed navbar -->
-       <nav class="navbar navbar-default navbar-fixed-top">
-         <div class="container">
-          <div class="navbar-header">
-             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-               <span class="sr-only">Toggle navigation</span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-               <span class="icon-bar"></span>
-             </button>
-             <h1 id="brand-name"><a class="navbar-brand" href="index.html">Jane Smith</a></h1>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-             <ul class="nav navbar-nav pull-right">
-               <li id="about"><a href="index.html">About Me</a></li>
-               <li id="teaching"><a href="teaching.html">Teaching</a></li>
-               <li id="research" class="active"><a href="research.html">Research</a></li>
-               <li id="vitae"><a href="vitae.html">Vitae</a></li>
-             </ul>
-          </div><!--/.nav-collapse -->
-         </div>
-       </nav>
+   <div class="spacer-div-3 hidden-xs hidden-xs"></div>
 
-    <div class="container main-content">
+   <!-- Main content    -->
+   <div id="main-container" class="container">
+
       <div class="row">
          <div class="col-sm-12">
-         <h2 class="page-header">Research</h2>
+            <h3>Research</h3>
+            <p>I favor a {DESCRIBE MAIN THEORETICAL/METHODOLOGICAL APPROACH IN 1 SENTENCE}.</p>
+
+            <p>My {PHD|MS|MA} work in the {DEPARTMENT} at {UNIVERSITY} was on {AREAS OF RESEARCH} where I {DESRCRIBE WHAT YOU STUDIED IN 1 OR 2 SENTENCES}. I apply my learning to the classroom by integrating it into the {SPECIFIC COURSE} course, creating a more realistic and authentic experience.</p>
+
+            <p>I focus specifically in these areas:</p>
+
+            <!-- List of Research interests -->
+            <ul class="push-down-1">
+               <li><em>{AREA 1}</em>&mdash;{BRIEF DESCRIPTION OF AREA}</li>
+               <li><em>{AREA 2}</em>&mdash;{BRIEF DESCRIPTION OF AREA}</li>
+               <li><em>{AREA 3}</em>&mdash;{BRIEF DESCRIPTION OF AREA}</li>
+               <li><em>{AREA 4}</em>&mdash;{BRIEF DESCRIPTION OF AREA}</li>
+               <li><em>{AREA 5}</em>&mdash;{BRIEF DESCRIPTION OF AREA}</li>
+               <li><em>{AREA 6}</em>&mdash;{BRIEF DESCRIPTION OF AREA}</li>
+            </ul>
+
+            <!-- Publication -->
+            <h4>Select Publications</h4>
+
+            <h5>Published Papers</h5>
+
+            <ul class="publications">
+               <li>LastName, P., & Lastname, Q. (1999). <em>Book title goes here</em> (2nd ed.) City, CA: Publishing House.</li>
+               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
+               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
+               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
+            </ul>
+
+            <h5>Submitted for Publication</h5>
+
+            <ul class="publications">
+               <li>LastName, P., & Lastname, Q. (1999). <em>Book title goes here</em> (2nd ed.) City, CA: Publishing House.</li>
+               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
+               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
+               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
+            </ul>
+
+            <h5>Working Papers</h5>
+
+            <ul class="publications">
+               <li>LastName, P., & Lastname, Q. (1999). <em>Book title goes here</em> (2nd ed.) City, CA: Publishing House.</li>
+               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
+               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
+               <li>Lastname, X. (1999). Article title. <em>Journal Title, 33</em>(5), 100-110. doi:10.1099/1525.1999.12</li>
+            </ul>
+
+            <!-- Dissertation abstract -->
+            <h4>Dissertation</h4>
+            <p>{BRIEF PARAGRAPH(S) ABSTRACT OF YOUR DISSERTATION}</p>
+
+            <!-- Sample quote from the dissertation -->
+            <blockquote>{SAMPLE/QUOTE FROM YOUR DISSERTATION}
+               <footer>
+                  Smith, Jane. (2015). <em>Title of Dissertation.</em> (Doctoral dissertation). Retrieved from Some Online Repository. (http://online-repository.com)
+               </footer>
+            </blockquote>
+
+
+            <!-- Read More Button -- link to the dissertation -->
+            <p class="text-left">
+               <a id="link-to-docs" role="button" class="btn btn-default" href="http://www.YOURDISSERTATIONURL.com" target="_blank">
+                  <i class="far fa-file-pdf fa-fw" aria-hidden="true"></i>&nbsp; Read More
+               </a>
+            </p>
+
          </div>
       </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-5 col-md-5">
 
-               <h4 class="office-hours"></i>Research Areas</h4>
+   </div>
 
-               <dl class="dl">
-                 <dt>Research Area 1</dt>
-                 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos animi reiciendis eum nobis aliquid optio molestiae dolorem autem alias.</dd>
-                 <dt>Research Area 2</dt>
-                 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elat. Dignissimos animi reiciendis eum nobis adtquid optio molestiae dolorem autem ales.</dd>
-                 <dt>Research Area 3</dt>
-                 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elat. Dignissimos animi reiciendis eum nobis adtquid optio molestiae dolorem autem aleas.</dd>
-                 <dt>Research Area 4</dt>
-                 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elat. Dignissimos animi reiciendis eum nobis adtquid optio molestiae dolorem autem aleas.</dd>
-                 <dt>Research Area 5</dt>
-                 <dd>Lorem ipsum dolor sit amet, consectetur adipisicing elat. Dignissimos animi reiciendis eum nobis aliquid optio molestiae dolorem autem aleas.</dd>
-               </dl>
+   <!-- footer include -->
+   <div w3-include-html="footer.html"></div>
 
-            </div>
-            <div class="col-xs-12 col-sm-7 col-md-7">
+   <!-- jQuery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-            <h4>Working Papers</h4>
-            <ul id="working-papers">
-               <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications.</li>
-               <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications.</li>
-               <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications.</li>
-            </ul>
+   <!-- Bootstrap JS Library -->
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 
-            <h4 class="spacer-top-lg">Publications</h4>
-            <ul id="publications">
-               <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications. Submitted for Publication</li>
-               <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications. Submitted for Publication</li>
-               <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications.</li>
-               <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications.</li>
-               <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications.</li>
-               <li>Ferguson, M., &amp; Golding, Peter. (1997). Cultural studies in question (Academic Complete (ebrary)). London ; Thousand Oaks, Calif.: Sage Publications.</li>
-            </ul>
+   <!-- html file include script | used for navbar and footer -->
+   <script src="js/w3data.js"></script>
+   <script>
+      w3IncludeHTML()
+   </script>
 
-            </div>
+   <!-- Local scripts -->
+   <script src="js/main.js"></script>
 
-        </div>
-        <!-- .row -->
+   <script>
+      $(document).ready(function() {
+         $("li#research a").addClass("active");
+         $("li#research a").addClass("hvr-bubble-bottom");
 
-    </div>
-    <!-- .container -->
-
-    <footer class="container">
-        <div class="row">
-
-            <div class="col-xs-12 col-sm-8">
-                <p class="pull-left spacer-top">&copy; <script>new Date().getFullYear()>2010&&document.write(new Date().getFullYear());</script> Jane Smith</p>
-            </div>
-
-            <!-- academic icons: For more icons, please see https://jpswalsh.github.io/academicons/ -->
-            <div class="col-xs-12 col-sm-3 social-icons pull-right">
-
-               <!-- Visit Google Scholar to set up an account -->
-               <a class="btn btn-primary btn-lg" href=""><i class="ai ai-google-scholar" title="Google Scholar"></i></a>
-
-               <!-- Visit Researchgate.net to set up an account -->
-               <a class="btn btn-primary btn-lg" href=""><i class="ai ai-researchgate" title="Research Gate"></i></a>
-
-               <!-- Visit LinkedIn.net to set up an account  -->
-               <a class="btn btn-primary btn-lg" href=""><i class="fa fa-linkedin" title="LinkedIn"></i></a>
-
-               <!-- Visit Twitter to set up an account  -->
-               <a class="btn btn-primary btn-lg" href=""><i class="fa fa-twitter" title="LinkedIn"></i></a>
-            </div>
-
-        </div>
-        <!-- .row -->
-   </footer>
-
-   <!-- This in the include to style code, if you put code into your website, for instructions, see: https://github.com/google/code-prettify -->
-   <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-
+      });
+   </script>
 
 </body>
 
