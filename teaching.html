@@ -2,100 +2,276 @@
 <html lang="en">
 
 <head>
-   <!-- Metadata for the Webpage -->
-   <meta charset="utf-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>Jane Smith, MS</title>
+  <!-- Metadata for the Webpage -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jane Smith, MS</title>
 
-   <!-- Bootstrap CSS files-->
-   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <!-- Favicons -- We recommend this site for generating favicons: https://www.favicon-generator.org/ -->
+  <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
-   <!-- jQuery UI CSS (optional) -->
-   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <!-- Bootstrap CSS files-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
-   <!-- Google web fonts -->
-   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
-   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600" rel="stylesheet">
+  <!-- jQuery UI CSS (optional) -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 
-   <!-- Font Awesome Web Icons -->
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- Google web fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600" rel="stylesheet">
 
-   <!-- Academicons Courtesy of https://jpswalsh.github.io/academicons/ -->
-   <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+  <!-- Font Awesome Web Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-   <!-- Local styles -->
-   <link rel="stylesheet" href="css/main.css">
+  <!-- Academicons Courtesy of https://jpswalsh.github.io/academicons/ -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+  <!-- Local styles -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Teaching Panel styles -->
+  <link rel="stylesheet" href="css/teaching-panels.css">
 
 </head>
 
 <body>
 
-   <!-- navbar include -->
-   <div w3-include-html="navbar.html"></div>
+  <!-- navbar include -->
+  <div w3-include-html="navbar.html"></div>
 
-   <div class="spacer-div-3 hidden-xs hidden-xs"></div>
+  <div class="spacer-div-3 hidden-xs hidden-xs"></div>
 
-   <!-- Main content    -->
-   <div id="main-container" class="container">
+  <!-- Main content    -->
+  <div id="main-container" class="container">
 
-      <div class="row">
-         <div class="col-sm-12">
+    <div class="row">
+      <div class="col-sm-12">
 
-         <h3>Teaching</h3>
+        <h1>Teaching</h1>
 
-         <p>For more on my pedagogical approach, see my Teaching Philosophy.</p>
+        <blockquote>{SAMPLE/QUOTE FROM YOUR TEACHING PHILOSOPHY}
+          <cite title="source title">&mdash; Source/Author</cite>
+        </blockquote>
 
-         <blockquote>{SAMPLE/QUOTE FROM YOUR TEACHING PHILOSOPHY}</blockquote>
-
-         <!-- Read More Button -- link to the dissertation -->
-         <p class="text-left">
-            <a id="link-to-docs" role="button" class="btn btn-default" href="http://www.YOURDISSERTATIONURL.com" target="_blank">
-               <i class="far fa-file-pdf fa-fw" aria-hidden="true"></i>&nbsp; Read More
-            </a>
-         </p>
-
-         <h4>Courses Taught</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque temporibus sit tempora rem. Pariatur dolore minima, corporis deserunt. Est doloribus, explicabo, porro obcaecati delectus culpa. Tempore ipsum earum, praesentium cum animi
+          accusamus porro, repellat debitis assumenda. Voluptates voluptatibus accusamus dignissimos iure sunt, autem dolorum impedit.</p>
+        <p>For more on my pedagogical approach, see my <a href="#" title="link to teaching philosophy" target="_blank">Teaching Philosophy</a>.</p>
 
 
 
+        <h3 class="push-down-3"><span>Courses Taught</span></h3>
 
-         <h4>Invited Talks</h4>
+        <p class='text-right'><span class="badge expander">show all</span></p>
+
+        <h4 class="push-down-3 gray"><em>University One</em></h4>
+
+        <div class="panel-group" id="accordion-one" role="tablist" aria-multiselectable="false">
+
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-5477158">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-one" href="#collapse-5477158" aria-expanded="false" aria-controls="collapse-5477158">ABC 10000 | Your Interesting
+                  Course Title</a>
+              </h5>
+            </div>
+            <div id="collapse-5477158" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-5477158">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eum, facilis, natus commodi numquam ut sed, maxime laborum veritatis suscipit fugiat optio hic? Quod quaerat quidem autem, possimus error, dolore,
+                nemo eaque animi, eligendi ratione inventore odit itaque eos dolorum.
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-9716944">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-one" href="#collapse-9716944" aria-expanded="false" aria-controls="collapse-9716944">ABC 10000 | Your Interesting
+                  Course Title</a>
+              </h5>
+            </div>
+            <div id="collapse-9716944" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-9716944">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
+                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-4195490">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-one" href="#collapse-4195490" aria-expanded="false" aria-controls="collapse-4195490">ABC 10000 | Your Interesting
+                  Course Title</a>
+              </h5>
+            </div>
+            <div id="collapse-4195490" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-4195490">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
+                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-5764911">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-one" href="#collapse-5764911" aria-expanded="false" aria-controls="collapse-5764911">ABC 10000 | Your Interesting
+                  Course Title</a>
+              </h5>
+            </div>
+            <div id="collapse-5764911" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-5764911">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
+                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-8774401">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-one" href="#collapse-8774401" aria-expanded="false" aria-controls="collapse-8774401">ABC 10000 | Your Interesting
+                  Course Title</a>
+              </h5>
+            </div>
+            <div id="collapse-8774401" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-8774401">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
+                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-147620">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-one" href="#collapse-147620" aria-expanded="false" aria-controls="collapse-147620">ABC 10000 | Your Interesting
+                  Course Title</a>
+              </h5>
+            </div>
+            <div id="collapse-147620" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-147620">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
+                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.
+              </div>
+            </div>
+          </div>
+        </div>
 
 
+        <h4 class="push-down-3 gray"><em>University Two</em></h4>
 
-         <h4>Conference Presentations</h4>
+        <div class="panel-group" id="accordion-two" role="tablist" aria-multiselectable="false">
+
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-5477158b">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-two" href="#collapse-5477158b" aria-expanded="false" aria-controls="collapse-5477158b">ABC 10000 | Your
+                  Interesting Course Title</a>
+              </h5>
+            </div>
+            <div id="collapse-5477158b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-5477158b">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eum, facilis, natus commodi numquam ut sed, maxime laborum veritatis suscipit fugiat optio hic? Quod quaerat quidem autem, possimus error, dolore,
+                nemo eaque animi, eligendi ratione inventore odit itaque eos dolorum.
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-9716944b">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-two" href="#collapse-9716944b" aria-expanded="false" aria-controls="collapse-9716944b">ABC 10000 | Your
+                  Interesting Course Title</a>
+              </h5>
+            </div>
+            <div id="collapse-9716944b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-9716944b">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
+                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-4195490b">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-two" href="#collapse-4195490b" aria-expanded="false" aria-controls="collapse-4195490b">ABC 10000 | Your
+                  Interesting Course Title</a>
+              </h5>
+            </div>
+            <div id="collapse-4195490b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-4195490b">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
+                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-5764911b">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-two" href="#collapse-5764911b" aria-expanded="false" aria-controls="collapse-5764911b">ABC 10000 | Your
+                  Interesting Course Title</a>
+              </h5>
+            </div>
+            <div id="collapse-5764911b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-5764911b">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
+                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-8774401b">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-two" href="#collapse-8774401b" aria-expanded="false" aria-controls="collapse-8774401b">ABC 10000 | Your
+                  Interesting Course Title</a>
+              </h5>
+            </div>
+            <div id="collapse-8774401b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-8774401b">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
+                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-147620b">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-two" href="#collapse-147620b" aria-expanded="false" aria-controls="collapse-147620b">ABC 10000 | Your Interesting
+                  Course Title</a>
+              </h5>
+            </div>
+            <div id="collapse-147620b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-147620b">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
+                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.
+              </div>
+            </div>
+          </div>
+        </div>
 
 
-         </div>
       </div>
+    </div>
 
-   </div>
+  </div>
 
-   <!-- footer include -->
-   <div w3-include-html="footer.html"></div>
+  <!-- footer include -->
+  <div w3-include-html="footer.html"></div>
 
-   <!-- jQuery -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-   <!-- Bootstrap JS Library -->
-   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS Library -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 
-   <!-- html file include script | used for navbar and footer -->
-   <script src="js/w3data.js"></script>
-   <script>
-      w3IncludeHTML()
-   </script>
+  <!-- html file include script | used for navbar and footer -->
+  <script src="js/w3data.js"></script>
+  <script>
+    w3IncludeHTML()
+  </script>
 
-   <!-- Local scripts -->
-   <script src="js/main.js"></script>
+  <!-- Local scripts -->
+  <script src="js/main.js"></script>
 
-   <script>
-      $(document).ready(function() {
-         $("li#teaching a").addClass("active");
-         $("li#teaching a").addClass("hvr-bubble-bottom");
-      });
-   </script>
+  <script>
+    $(document).ready(function() {
+      $("li#teaching a").addClass("active");
+      $("li#teaching a").addClass("hvr-bubble-bottom");
+    });
+  </script>
 
 </body>
 

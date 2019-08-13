@@ -1,0 +1,21 @@
+/* Website Design */
+
+
+  Project: Academic Website Template
+  Web Design and Development
+
+  Re-release / update: Fall, 2019
+
+  Randal Sean Harrison, Ph.D.
+  Website Developer
+  Employed: Hesburgh Libraries, University of Notre Dame
+  Contact: rharriso@nd.edu
+
+
+/* Technologies, Credits  */
+
+  Languages: HTML5, CSS3, Javascript
+  Frameworks: jQuery, Bootstrap 3
+  Web Fonts: Font Awesome 4
+
+  IDE/Env: Atom.io

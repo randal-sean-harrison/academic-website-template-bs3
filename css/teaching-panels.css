@@ -1,0 +1,45 @@
+.panel-default {
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;
+  border-bottom: 1px dotted silver;
+}
+
+.panel-default h5 {
+  font-style: normal;
+}
+
+.panel-default:last-child {
+  border-bottom: none !important;
+}
+
+.panel-default .panel-heading {
+  background-color: transparent !important;
+  border-bottom: 0px !important;
+  border-bottom-color: white !important;
+}
+
+.panel-default .panel-body {
+  border-top: none !important;
+  padding-top: 0px;
+  padding-right: 8rem;
+}
+
+.panel-default .panel-heading a:hover {
+text-decoration: none !important;
+border-bottom: none !important;
+padding-bottom: 0;
+}
+
+.panel-default .in {
+padding-top: 0 !important;
+color: black;
+}
+
+.panel-default a[aria-expanded="true"] {
+color: black;
+}
+
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+border-top: 0px;
+}
