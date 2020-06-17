@@ -391,6 +391,10 @@ footer {
   font-size: 1.75rem;
 }
 
+.panel-default .panel-heading a:hover {
+  padding-bottom: 0px !important;
+}
+
 /* All Links panels ---------------------------------------------- */
 #links .panel-default {
   border-radius: 0;

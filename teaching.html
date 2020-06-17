@@ -48,6 +48,38 @@
   <!-- Teaching Panel styles -->
   <link rel="stylesheet" href="css/teaching-panels.css">
 
+
+  <style>
+      /* plus glyph for showing collapsible panels */
+      .panel-heading .accordion-plus-toggle:before {
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f068";
+        float: right;
+        color: RGBA(119, 136, 153, .5);
+      }
+
+      .panel-heading .accordion-plus-toggle.collapsed:before {
+        font-style: normal;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f067";
+        color: RGBA(119, 136, 153, .5);
+      }
+
+      /* sets the link to the width of the entire panel title */
+      .panel-title>a {
+        display: block;
+      }
+    </style>
+
 </head>
 
 <body>
@@ -81,80 +113,80 @@
 
         <h4 class="push-down-3 gray"><em>University One</em></h4>
 
-        <div class="panel-group" id="accordion-one" role="tablist" aria-multiselectable="false">
+        <div class="panel-group" id="University-1" role="tablist">
+
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-8752665301">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="" href="#collapse-8752665301" aria-expanded="false" aria-controls="collapse-8752665301">Course 1</a>
+              </h5>
+            </div>
+            <div id="collapse-8752665301" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-8752665301">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, accusantium doloribus! Sequi ad omnis facere illo, dignissimos vel officiis, architecto sit laborum labore, quidem cumque ipsam minima est cum eligendi.</div>
+            </div>
+          </div>
+
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-8774401">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="" href="#collapse-8774401" aria-expanded="false" aria-controls="collapse-8774401">Course 2</a>
+              </h5>
+            </div>
+            <div id="collapse-8774401" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-8774401">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim voluptatibus minus atque suscipit, labore eius, nostrum laboriosam! Minima labore, dicta voluptatum quaerat impedit perferendis? Omnis quidem ab voluptatem perferendis asperiores.</div>
+            </div>
+          </div>
 
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="heading-5477158">
               <h5 class="panel-title">
-                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-one" href="#collapse-5477158" aria-expanded="false" aria-controls="collapse-5477158">ABC 10000 | Your Interesting
-                  Course Title</a>
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="" href="#collapse-5477158" aria-expanded="false" aria-controls="collapse-5477158">Course 3</a>
               </h5>
             </div>
             <div id="collapse-5477158" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-5477158">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eum, facilis, natus commodi numquam ut sed, maxime laborum veritatis suscipit fugiat optio hic? Quod quaerat quidem autem, possimus error, dolore,
-                nemo eaque animi, eligendi ratione inventore odit itaque eos dolorum.
-              </div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt velit dignissimos tempora esse, laudantium error nam corporis quos commodi maxime molestias consequuntur. Recusandae pariatur accusantium perspiciatis, nesciunt vitae minima itaque?</div>
             </div>
           </div>
 
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="heading-9716944">
               <h5 class="panel-title">
-                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-one" href="#collapse-9716944" aria-expanded="false" aria-controls="collapse-9716944">ABC 10000 | Your Interesting
-                  Course Title</a>
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="" href="#collapse-9716944" aria-expanded="false" aria-controls="collapse-9716944">Course 4</a>
               </h5>
             </div>
             <div id="collapse-9716944" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-9716944">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
-                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus animi nisi repellendus aut non aperiam iste nostrum enim porro, ea quaerat sed numquam cupiditate iusto praesentium, quia amet? Eaque, facere.</div>
             </div>
           </div>
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="heading-4195490">
               <h5 class="panel-title">
-                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-one" href="#collapse-4195490" aria-expanded="false" aria-controls="collapse-4195490">ABC 10000 | Your Interesting
-                  Course Title</a>
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="" href="#collapse-4195490" aria-expanded="false" aria-controls="collapse-4195490">Course 5</a>
               </h5>
             </div>
             <div id="collapse-4195490" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-4195490">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
-                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, distinctio velit molestias nobis inventore, similique debitis temporibus corporis quo dolore reiciendis. Pariatur suscipit, ullam fugiat fuga libero corrupti ab itaque!</div>
             </div>
           </div>
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="heading-5764911">
               <h5 class="panel-title">
-                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-one" href="#collapse-5764911" aria-expanded="false" aria-controls="collapse-5764911">ABC 10000 | Your Interesting
-                  Course Title</a>
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="" href="#collapse-5764911" aria-expanded="false" aria-controls="collapse-5764911">Course 6</a>
               </h5>
             </div>
             <div id="collapse-5764911" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-5764911">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
-                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nisi voluptates minima hic unde ut voluptatibus consequuntur voluptatem quisquam asperiores, sequi suscipit dicta, dolor, temporibus animi veritatis. Modi, delectus, aut!</div>
             </div>
           </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading-8774401">
-              <h5 class="panel-title">
-                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-one" href="#collapse-8774401" aria-expanded="false" aria-controls="collapse-8774401">ABC 10000 | Your Interesting
-                  Course Title</a>
-              </h5>
-            </div>
-            <div id="collapse-8774401" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-8774401">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
-                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
-            </div>
-          </div>
+
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="heading-147620">
               <h5 class="panel-title">
-                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-one" href="#collapse-147620" aria-expanded="false" aria-controls="collapse-147620">ABC 10000 | Your Interesting
-                  Course Title</a>
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="" href="#collapse-147620" aria-expanded="false" aria-controls="collapse-147620">Course 7</a>
               </h5>
             </div>
             <div id="collapse-147620" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-147620">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
-                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint blanditiis, quia iusto, beatae suscipit nostrum. Et explicabo sed facere molestiae reiciendis! Perferendis consequatur dolores, placeat aliquid id dignissimos, excepturi deleniti.
               </div>
             </div>
           </div>
@@ -163,81 +195,56 @@
 
         <h4 class="push-down-3 gray"><em>University Two</em></h4>
 
-        <div class="panel-group" id="accordion-two" role="tablist" aria-multiselectable="false">
-
+        <div class="panel-group" id="university-2" role="tablist">
           <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading-5477158b">
+            <div class="panel-heading" role="tab" id="heading4574559">
               <h5 class="panel-title">
-                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-two" href="#collapse-5477158b" aria-expanded="false" aria-controls="collapse-5477158b">ABC 10000 | Your
-                  Interesting Course Title</a>
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="" href="#collapse4574559" aria-expanded="false" aria-controls="collapse4574559">Course 1</a>
               </h5>
             </div>
-            <div id="collapse-5477158b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-5477158b">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eum, facilis, natus commodi numquam ut sed, maxime laborum veritatis suscipit fugiat optio hic? Quod quaerat quidem autem, possimus error, dolore,
-                nemo eaque animi, eligendi ratione inventore odit itaque eos dolorum.
+            <div id="collapse4574559" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4574559">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae mollitia ullam velit. Hic sint provident, eligendi quis est deserunt ex amet doloremque. Nam eaque, voluptatum numquam! Voluptatibus voluptate, placeat nobis!</div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading5428718">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="" href="#collapse5428718" aria-expanded="false" aria-controls="collapse5428718">Course 2</a>
+              </h5>
+            </div>
+            <div id="collapse5428718" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5428718">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere repellendus iusto veritatis tempore molestiae aperiam ipsa ea corporis, facilis doloremque magnam nam qui inventore sint, a quis fugiat in illo.</div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading766918">
+              <h5 class="panel-title">
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="" href="#collapse766918" aria-expanded="false" aria-controls="collapse766918">Course 3</a>
+              </h5>
+            </div>
+            <div id="collapse766918" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading766918">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatum eaque aliquid cumque nisi molestias itaque eum provident placeat dolor molestiae, vero aut labore reiciendis quam et tempore voluptatibus beatae.
               </div>
             </div>
           </div>
-
           <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading-9716944b">
+            <div class="panel-heading" role="tab" id="heading1025199">
               <h5 class="panel-title">
-                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-two" href="#collapse-9716944b" aria-expanded="false" aria-controls="collapse-9716944b">ABC 10000 | Your
-                  Interesting Course Title</a>
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="" href="#collapse1025199" aria-expanded="false" aria-controls="collapse1025199">Course 4</a>
               </h5>
             </div>
-            <div id="collapse-9716944b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-9716944b">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
-                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
+            <div id="collapse1025199" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1025199">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita molestias, beatae nisi illo dolor aperiam ex consequatur maiores delectus maxime labore quidem dicta praesentium, eveniet itaque enim blanditiis. Perspiciatis, nesciunt..</div>
             </div>
           </div>
           <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading-4195490b">
+            <div class="panel-heading" role="tab" id="heading9284651">
               <h5 class="panel-title">
-                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-two" href="#collapse-4195490b" aria-expanded="false" aria-controls="collapse-4195490b">ABC 10000 | Your
-                  Interesting Course Title</a>
+                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="" href="#collapse9284651" aria-expanded="false" aria-controls="collapse9284651">Course 5</a>
               </h5>
             </div>
-            <div id="collapse-4195490b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-4195490b">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
-                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading-5764911b">
-              <h5 class="panel-title">
-                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-two" href="#collapse-5764911b" aria-expanded="false" aria-controls="collapse-5764911b">ABC 10000 | Your
-                  Interesting Course Title</a>
-              </h5>
-            </div>
-            <div id="collapse-5764911b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-5764911b">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
-                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading-8774401b">
-              <h5 class="panel-title">
-                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-two" href="#collapse-8774401b" aria-expanded="false" aria-controls="collapse-8774401b">ABC 10000 | Your
-                  Interesting Course Title</a>
-              </h5>
-            </div>
-            <div id="collapse-8774401b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-8774401b">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
-                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.</div>
-            </div>
-          </div>
-          <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="heading-147620b">
-              <h5 class="panel-title">
-                <a role="button" data-toggle="collapse" class="accordion-toggle accordion-plus-toggle collapsed" data-parent="#accordion-two" href="#collapse-147620b" aria-expanded="false" aria-controls="collapse-147620b">ABC 10000 | Your Interesting
-                  Course Title</a>
-              </h5>
-            </div>
-            <div id="collapse-147620b" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-147620b">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore blanditiis eveniet nostrum perspiciatis aspernatur reiciendis deserunt esse. Molestiae quas sint debitis aliquam nulla doloremque dolorum
-                praesentium. Voluptate assumenda neque officia nihil illum vel, at ea voluptatum ducimus quibusdam, magnam illo.
-              </div>
+            <div id="collapse9284651" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9284651">
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque harum fuga impedit corporis cumque quos. Rem itaque repudiandae hic dolorem voluptas necessitatibus facere, aut, rerum autem quam iure illum amet.</div>
             </div>
           </div>
         </div>
