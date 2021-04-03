@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jane Smith, MS</title>
+  <title>Your Name Here</title>
 
   <!-- Favicons -- We recommend this site for generating favicons: https://www.favicon-generator.org/ -->
   <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
@@ -18,7 +18,7 @@
   <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
@@ -33,8 +33,8 @@
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 
   <!-- Google web fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
 
   <!-- Font Awesome Web Icons -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -50,42 +50,42 @@
 
 
   <style>
-      /* plus glyph for showing collapsible panels */
-      .panel-heading .accordion-plus-toggle:before {
-        font-style: normal;
-        font-variant: normal;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        content: "\f068";
-        float: right;
-        color: RGBA(119, 136, 153, .5);
-      }
+    /* plus glyph for showing collapsible panels */
+    .panel-heading .accordion-plus-toggle:before {
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f068";
+      float: right;
+      color: RGBA(119, 136, 153, .5);
+    }
 
-      .panel-heading .accordion-plus-toggle.collapsed:before {
-        font-style: normal;
-        font-variant: normal;
-        text-rendering: auto;
-        -webkit-font-smoothing: antialiased;
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
-        content: "\f067";
-        color: RGBA(119, 136, 153, .5);
-      }
+    .panel-heading .accordion-plus-toggle.collapsed:before {
+      font-style: normal;
+      font-variant: normal;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      content: "\f067";
+      color: RGBA(119, 136, 153, .5);
+    }
 
-      /* sets the link to the width of the entire panel title */
-      .panel-title>a {
-        display: block;
-      }
-    </style>
+    /* sets the link to the width of the entire panel title */
+    .panel-title>a {
+      display: block;
+    }
+  </style>
 
 </head>
 
 <body>
 
   <!-- navbar include -->
-  <div w3-include-html="navbar.html"></div>
+  <div id="navbar-include"></div>
 
   <div class="spacer-div-3 hidden-xs hidden-xs"></div>
 
@@ -97,19 +97,18 @@
 
         <h1>Teaching</h1>
 
-        <blockquote>{SAMPLE/QUOTE FROM YOUR TEACHING PHILOSOPHY}
+        <blockquote>{Sample or quote from your teaching philosophy}
           <cite title="source title">&mdash; Source/Author</cite>
         </blockquote>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque temporibus sit tempora rem. Pariatur dolore minima, corporis deserunt. Est doloribus, explicabo, porro obcaecati delectus culpa. Tempore ipsum earum, praesentium cum animi
-          accusamus porro, repellat debitis assumenda. Voluptates voluptatibus accusamus dignissimos iure sunt, autem dolorum impedit.</p>
-        <p>For more on my pedagogical approach, see my <a href="#" title="link to teaching philosophy" target="_blank">Teaching Philosophy</a>.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque temporibus sit tempora rem. Pariatur dolore minima, corporis deserunt. Est doloribus, explicabo, porro obcaecati delectus culpa. Tempore ipsum earum, praesentium cum animi accusamus porro, repellat debitis assumenda. Voluptates voluptatibus accusamus dignissimos iure sunt, autem dolorum impedit.</p>
+        <p>For more on my pedagogical approach, see my <a href="#" title="Read more" target="_blank">Teaching Philosophy</a>.</p>
 
 
 
         <h3 class="push-down-3"><span>Courses Taught</span></h3>
 
-        <p class='text-right'><span class="badge expander">show all</span></p>
+        <p class='text-right bright-blue'><span class="badge expander badge-bright-blue pointer">show all</span></p>
 
         <h4 class="push-down-3 gray"><em>University One</em></h4>
 
@@ -122,7 +121,8 @@
               </h5>
             </div>
             <div id="collapse-8752665301" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-8752665301">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, accusantium doloribus! Sequi ad omnis facere illo, dignissimos vel officiis, architecto sit laborum labore, quidem cumque ipsam minima est cum eligendi.</div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, accusantium doloribus! Sequi ad omnis facere illo, dignissimos vel officiis, architecto sit laborum labore, quidem cumque ipsam minima est cum
+                eligendi.</div>
             </div>
           </div>
 
@@ -133,7 +133,8 @@
               </h5>
             </div>
             <div id="collapse-8774401" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-8774401">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim voluptatibus minus atque suscipit, labore eius, nostrum laboriosam! Minima labore, dicta voluptatum quaerat impedit perferendis? Omnis quidem ab voluptatem perferendis asperiores.</div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim voluptatibus minus atque suscipit, labore eius, nostrum laboriosam! Minima labore, dicta voluptatum quaerat impedit perferendis? Omnis quidem ab
+                voluptatem perferendis asperiores.</div>
             </div>
           </div>
 
@@ -144,7 +145,8 @@
               </h5>
             </div>
             <div id="collapse-5477158" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-5477158">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt velit dignissimos tempora esse, laudantium error nam corporis quos commodi maxime molestias consequuntur. Recusandae pariatur accusantium perspiciatis, nesciunt vitae minima itaque?</div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt velit dignissimos tempora esse, laudantium error nam corporis quos commodi maxime molestias consequuntur. Recusandae pariatur accusantium
+                perspiciatis, nesciunt vitae minima itaque?</div>
             </div>
           </div>
 
@@ -165,7 +167,8 @@
               </h5>
             </div>
             <div id="collapse-4195490" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-4195490">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, distinctio velit molestias nobis inventore, similique debitis temporibus corporis quo dolore reiciendis. Pariatur suscipit, ullam fugiat fuga libero corrupti ab itaque!</div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, distinctio velit molestias nobis inventore, similique debitis temporibus corporis quo dolore reiciendis. Pariatur suscipit, ullam fugiat fuga libero
+                corrupti ab itaque!</div>
             </div>
           </div>
           <div class="panel panel-default">
@@ -175,7 +178,8 @@
               </h5>
             </div>
             <div id="collapse-5764911" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-5764911">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nisi voluptates minima hic unde ut voluptatibus consequuntur voluptatem quisquam asperiores, sequi suscipit dicta, dolor, temporibus animi veritatis. Modi, delectus, aut!</div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nisi voluptates minima hic unde ut voluptatibus consequuntur voluptatem quisquam asperiores, sequi suscipit dicta, dolor, temporibus animi veritatis.
+                Modi, delectus, aut!</div>
             </div>
           </div>
 
@@ -186,7 +190,8 @@
               </h5>
             </div>
             <div id="collapse-147620" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-147620">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint blanditiis, quia iusto, beatae suscipit nostrum. Et explicabo sed facere molestiae reiciendis! Perferendis consequatur dolores, placeat aliquid id dignissimos, excepturi deleniti.
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint blanditiis, quia iusto, beatae suscipit nostrum. Et explicabo sed facere molestiae reiciendis! Perferendis consequatur dolores, placeat aliquid id
+                dignissimos, excepturi deleniti.
               </div>
             </div>
           </div>
@@ -203,7 +208,8 @@
               </h5>
             </div>
             <div id="collapse4574559" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4574559">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae mollitia ullam velit. Hic sint provident, eligendi quis est deserunt ex amet doloremque. Nam eaque, voluptatum numquam! Voluptatibus voluptate, placeat nobis!</div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae mollitia ullam velit. Hic sint provident, eligendi quis est deserunt ex amet doloremque. Nam eaque, voluptatum numquam! Voluptatibus voluptate,
+                placeat nobis!</div>
             </div>
           </div>
           <div class="panel panel-default">
@@ -213,7 +219,8 @@
               </h5>
             </div>
             <div id="collapse5428718" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5428718">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere repellendus iusto veritatis tempore molestiae aperiam ipsa ea corporis, facilis doloremque magnam nam qui inventore sint, a quis fugiat in illo.</div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere repellendus iusto veritatis tempore molestiae aperiam ipsa ea corporis, facilis doloremque magnam nam qui inventore sint, a quis fugiat in illo.
+              </div>
             </div>
           </div>
           <div class="panel panel-default">
@@ -223,7 +230,8 @@
               </h5>
             </div>
             <div id="collapse766918" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading766918">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatum eaque aliquid cumque nisi molestias itaque eum provident placeat dolor molestiae, vero aut labore reiciendis quam et tempore voluptatibus beatae.
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias voluptatum eaque aliquid cumque nisi molestias itaque eum provident placeat dolor molestiae, vero aut labore reiciendis quam et tempore voluptatibus
+                beatae.
               </div>
             </div>
           </div>
@@ -234,7 +242,8 @@
               </h5>
             </div>
             <div id="collapse1025199" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1025199">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita molestias, beatae nisi illo dolor aperiam ex consequatur maiores delectus maxime labore quidem dicta praesentium, eveniet itaque enim blanditiis. Perspiciatis, nesciunt..</div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita molestias, beatae nisi illo dolor aperiam ex consequatur maiores delectus maxime labore quidem dicta praesentium, eveniet itaque enim blanditiis.
+                Perspiciatis, nesciunt..</div>
             </div>
           </div>
           <div class="panel panel-default">
@@ -244,7 +253,8 @@
               </h5>
             </div>
             <div id="collapse9284651" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9284651">
-              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque harum fuga impedit corporis cumque quos. Rem itaque repudiandae hic dolorem voluptas necessitatibus facere, aut, rerum autem quam iure illum amet.</div>
+              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque harum fuga impedit corporis cumque quos. Rem itaque repudiandae hic dolorem voluptas necessitatibus facere, aut, rerum autem quam iure illum amet.
+              </div>
             </div>
           </div>
         </div>
@@ -278,8 +288,14 @@
 
   <script>
     $(document).ready(function() {
-      $("li#teaching a").addClass("active");
-      $("li#teaching a").addClass("hvr-bubble-bottom");
+
+      $("#navbar-include").load("navbar.html", function() {
+
+        $("#home").removeClass("active");
+        $("#teaching").addClass("active");
+
+      });
+
     });
   </script>
 
