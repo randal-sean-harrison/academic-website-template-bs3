@@ -1,194 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <!-- Metadata for the Webpage -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Jane Smith, MS</title>
+  <head>
+    <!-- Metadata for the Webpage -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jane Smith, MS</title>
 
-  <!-- Favicons -- We recommend this site for generating favicons: https://www.favicon-generator.org/ -->
-  <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+    <!-- Favicons -- We recommend this site for generating favicons: https://www.favicon-generator.org/ -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
-  <!-- Bootstrap CSS files-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Bootstrap CSS files-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
-  <!-- jQuery UI CSS (optional) -->
-  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <!-- jQuery UI CSS (optional) -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
 
-  <!-- Google web fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600" rel="stylesheet">
+    <!-- Google web fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600" rel="stylesheet">
 
-  <!-- Font Awesome Web Icons -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Font Awesome Web Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-  <!-- Academicons Courtesy of https://jpswalsh.github.io/academicons/ -->
-  <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <!-- Academicons Courtesy of https://jpswalsh.github.io/academicons/ -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
-  <!-- Local styles -->
-  <link rel="stylesheet" href="css/main.css">
+    <!-- Local styles -->
+    <link rel="stylesheet" href="css/main.css">
 
-</head>
+  </head>
 
-<body>
+  <body>
 
-  <!-- navbar include -->
-  <div id="navbar-include"></div>
+    <!-- navbar include -->
+    <div id="navbar-include"></div>
 
-  <div class="spacer-div-3 hidden-xs hidden-xs"></div>
+    <div class="spacer-div-3 hidden-xs hidden-xs"></div>
 
-  <!-- Main content    -->
-  <div id="main-container" class="container">
-
-
-    <!----------------------------------------------------------------------------------------------------- DELETE THIS (BELOW) WHEN EDITING THIS TEMPLATE ---------------------------------------------------------------------------------------------------------------------------->
-    <div class="alert alert-info" role="alert">
-      <p>
-        <i class="fa fa-info-circle fa-fw" aria-hidden="true"></i>
-        <a class="close" data-dismiss="alert" aria-label="close">×</a>
-        <strong>Template and tools</strong>
-        <br>
-        This template is <a href="https://github.com/randal-sean-harrison/academic-website-template" target="_blank">free on Github</a>. No attribution necessary. Extend this template further by building additional Bootstrap 3 components in seconds
-        with my <a href="https://bootstrapr.io" target="_blank">Boostrapr.io</a> app!
-      </p>
-      <p>Photo by <a href="https://unsplash.com/@andresherrerapics?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andres Herrera</a> on <a
-          href="https://unsplash.com/s/photos/head-shot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-      </p>
-    </div>
-
-    <!----------------------------------------------------------------------------------------------------- DELETE THIS (ABOVE) WHEN EDITING THIS TEMPLATE ---------------------------------------------------------------------------------------------------------------------------->
+    <!-- Main content    -->
+    <div id="main-container" class="container">
 
 
+      <!----------------------------------------------------------------------------------------------------- DELETE THIS SECTION WHEN EDITING THIS TEMPLATE ---------------------------------------------------------------------------------------------------------------------------->
 
-    <div class="row">
-      <div class="col-sm-4">
-        <img class="center-block img img-responsive" src="img/andres-herrera-457c7WKmfTw-unsplash_sm.jpg" alt="Image of Jane Smith">
-
-        <p id="title">Doctoral Candidate<br>
-          <span id="program">Political Science</span>
+      <div class="alert alert-success" role="alert">
+        <p>
+          <i class="fa fa-star fa-fw" aria-hidden="true"></i>
+          <a class="close" data-dismiss="alert" aria-label="close">×</a>
+          <strong>A Bootstrap v4.x Version is Available!</strong>
+          <br>
+          I've created a Bootstrap 4.x version of this template, with even cooler features. You can find and download it
+          free at: <a href="https://randal-sean-harrison.github.io/academic-website-template-bs4/index.html"
+            target="_blank">Academic Website Template BS4</a>
         </p>
-
-        <table class="table" id="contact-table">
-          <tbody>
-            <tr>
-              <td style="width:30px"><i class="fas fa-home"></i></td>
-              <td>
-                James Trickington University<br>
-                1234 Happiness Dr.<br>
-                Anytown, State 12345
-              </td>
-            </tr>
-            <tr>
-              <td><i class="fas fa-phone"></i></td>
-              <td><a href="tel:9999999999">(999) 999-9999</a></td>
-            </tr>
-            <tr>
-              <td><i class="fas fa-at"></i></td>
-              <td><a href="mailto:jane.smith@example-uni.edu">jane.smith@nd.edu</a></td>
-            </tr>
-          </tbody>
-        </table>
-
       </div>
-      <div class="col-sm-8">
 
-        <p>I am an {job title} in the {school | department} at {university | institute | organization} where I
-          {first responsibility}, {second responsibility}, and {third responsibility}. My research and teaching focus on {first area}, {second area}, {third area} and {fourth area}.</p>
 
-        <p>I received my {degree} in {academic field} from {university} in {year}. I
-          studied {areas specific to your field} under the direction of {advisor}. There I worked on {describe major relevant projects in recent significant degree}.</p>
+      <div class="alert alert-info" role="alert">
+        <p>
+          <i class="fa fa-info-circle fa-fw" aria-hidden="true"></i>
+          <a class="close" data-dismiss="alert" aria-label="close">×</a>
+          <strong>Template and tools</strong>
+          <br>
+          This template is <a href="https://github.com/randal-sean-harrison/academic-website-template"
+            target="_blank">free on Github</a>. No attribution necessary. Extend this template further by building
+          additional Bootstrap 3 components in seconds
+          with my <a href="https://bootstrapr.io" target="_blank">Boostrapr.io</a> app!
+        </p>
+        <p>Photo by <a
+            href="https://unsplash.com/@andresherrerapics?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andres
+            Herrera</a> on <a
+            href="https://unsplash.com/s/photos/head-shot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-        <p>I am currently working on {summary list of projects} with {collaborators, if any} through the {university | organization}.</p>
+        </p>
+      </div>
 
-        <!-- If you don't want a 'read more' section, simple delete this section between the lines of equal signs -->
-        <!-- ============ READ MORE SECTION BELOW =====================  -->
-        <div id="read-more">
+      <!----------------------------------------------------------------------------------------------------- DELETE THIS (ABOVE) WHEN EDITING THIS TEMPLATE ---------------------------------------------------------------------------------------------------------------------------->
 
-          <p class="push-down-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolore doloremque, tenetur temporibus fugit maiores, labore porro nobis laborum animi consectetur omnis cum iure obcaecati voluptatem, eius sunt totam
-            dolorum voluptatibus nostrum doloribus! Ipsa, a, aspernatur tenetur hic eum expedita.</p>
 
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolore doloremque, tenetur temporibus fugit maiores, labore porro nobis laborum animi consectetur omnis cum iure obcaecati voluptatem, eius sunt totam dolorum
-            voluptatibus nostrum doloribus! Ipsa, a, aspernatur tenetur hic eum expedita.</p>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <img class="center-block img img-responsive" src="img/andres-herrera-457c7WKmfTw-unsplash_sm.jpg"
+            alt="Image of Jane Smith">
+
+          <p id="title">Doctoral Candidate<br>
+            <span id="program">Political Science</span>
+          </p>
+
+          <table class="table" id="contact-table">
+            <tbody>
+              <tr>
+                <td style="width:30px"><i class="fas fa-home"></i></td>
+                <td>
+                  James Trickington University<br>
+                  1234 Happiness Dr.<br>
+                  Anytown, State 12345
+                </td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-phone"></i></td>
+                <td><a href="tel:9999999999">(999) 999-9999</a></td>
+              </tr>
+              <tr>
+                <td><i class="fas fa-at"></i></td>
+                <td><a href="mailto:jane.smith@example-uni.edu">jane.smith@nd.edu</a></td>
+              </tr>
+            </tbody>
+          </table>
 
         </div>
-        <!-- .read-more -->
-        <span class="badge" id="badge-more">more</span>
-        <!-- ========= READ MORE SECTION ABOVE =====================  -->
+        <div class="col-sm-8">
+
+          <p>I am an {job title} in the {school | department} at {university | institute | organization} where I
+            {first responsibility}, {second responsibility}, and {third responsibility}. My research and teaching focus
+            on {first area}, {second area}, {third area} and {fourth area}.</p>
+
+          <p>I received my {degree} in {academic field} from {university} in {year}. I
+            studied {areas specific to your field} under the direction of {advisor}. There I worked on {describe major
+            relevant projects in recent significant degree}.</p>
+
+          <p>I am currently working on {summary list of projects} with {collaborators, if any} through the {university |
+            organization}.</p>
+
+          <!-- If you don't want a 'read more' section, simple delete this section between the lines of equal signs -->
+          <!-- ============ READ MORE SECTION BELOW =====================  -->
+          <div id="read-more">
+
+            <p class="push-down-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolore doloremque,
+              tenetur temporibus fugit maiores, labore porro nobis laborum animi consectetur omnis cum iure obcaecati
+              voluptatem, eius sunt totam
+              dolorum voluptatibus nostrum doloribus! Ipsa, a, aspernatur tenetur hic eum expedita.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolore doloremque, tenetur temporibus
+              fugit maiores, labore porro nobis laborum animi consectetur omnis cum iure obcaecati voluptatem, eius sunt
+              totam dolorum
+              voluptatibus nostrum doloribus! Ipsa, a, aspernatur tenetur hic eum expedita.</p>
+
+          </div>
+          <!-- .read-more -->
+          <span class="badge" id="badge-more">more</span>
+          <!-- ========= READ MORE SECTION ABOVE =====================  -->
 
 
-        <h3 class="push-down-3"><span>Education</span></h3>
+          <h3 class="push-down-3"><span>Education</span></h3>
 
-        <ul id="education">
-          <li>
-            <strong>Ph.D. in {FIELD}, {YEAR}</strong><br>
-            <span class="university"><em>University of Southern California</em></span>
-          </li>
-          <li>
-            <strong>M.A. in {FIELD}, {YEAR}</strong><br>
-            <span class="university"><em>{UNIVERSITY}</em></span>
-          </li>
-          <li>
-            <strong>B.A. in {FIELD}, {YEAR}</strong><br>
-            <span class="university"><em>{UNIVERSITY}</em></span>
-          </li>
+          <ul id="education">
+            <li>
+              <strong>Ph.D. in {FIELD}, {YEAR}</strong><br>
+              <span class="university"><em>University of Southern California</em></span>
+            </li>
+            <li>
+              <strong>M.A. in {FIELD}, {YEAR}</strong><br>
+              <span class="university"><em>{UNIVERSITY}</em></span>
+            </li>
+            <li>
+              <strong>B.A. in {FIELD}, {YEAR}</strong><br>
+              <span class="university"><em>{UNIVERSITY}</em></span>
+            </li>
 
-        </ul>
+          </ul>
 
+        </div>
       </div>
+
     </div>
 
-  </div>
+    <!-- Back-to-top button -->
+    <a role="button" id="topper" data-toggle="tooltip" data-placement="top" title="Top" class="btn scroll-link"
+      href="#top"><i class="fa fa-fw fa-2x fa-caret-up" aria-hidden="true"></i></a>
 
-  <!-- Back-to-top button -->
-  <a role="button" id="topper" data-toggle="tooltip" data-placement="top" title="Top" class="btn scroll-link" href="#top"><i class="fa fa-fw fa-2x fa-caret-up" aria-hidden="true"></i></a>
 
+    <!-- footer include -->
+    <div w3-include-html="footer.html"></div>
 
-  <!-- footer include -->
-  <div w3-include-html="footer.html"></div>
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-  <!-- jQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap JS Library -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"></script>
 
-  <!-- Bootstrap JS Library -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+    <!-- html file include script | used for navbar and footer -->
+    <script src="js/w3data.js"></script>
+    <script>
+      w3IncludeHTML()
+    </script>
 
-  <!-- html file include script | used for navbar and footer -->
-  <script src="js/w3data.js"></script>
-  <script>
-    w3IncludeHTML()
-  </script>
+    <!-- Local scripts -->
+    <script src="js/main.js"></script>
 
-  <!-- Local scripts -->
-  <script src="js/main.js"></script>
+    <script>
+      $(document).ready(function () {
 
-  <script>
-    $(document).ready(function() {
+        $("#navbar-include").load("navbar.html", function () {
+          console.log("Navbar loaded.");
+        });
 
-      $("#navbar-include").load("navbar.html", function() {
-        console.log("Navbar loaded.");
       });
+    </script>
 
-    });
-  </script>
-
-</body>
+  </body>
 
 </html>
