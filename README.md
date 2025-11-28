@@ -1,5 +1,10 @@
 # Academic Website Template
 
+## BOOTSTRAP v5.x TEMPLATE IS NOW AVAILABLE!
+I've created a Bootstrap 5.x version of this template, with even cooler features. You can find and download it free at: Academic Website Template BS v5.x
+
+---
+
 ### Free as in beer
 This is a free thing. You may download this and use it to create your own website(s), as long as you abide by the license restrictions. As it specifies, there's no need to reference me, the creator of this work, on your own websites.
 
